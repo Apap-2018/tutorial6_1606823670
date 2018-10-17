@@ -1,0 +1,5 @@
+1. Mengapa perlu menginisiasi object PilotModel, sedangkan yang dites hanya FlightModel?
+- dikarenakan flightModel terintegrasi dengan PilotModel dan setiap flight pasti memiliki pilot.
+
+2.Jelaskan apa yang akan terjadi jika object PilotModel dihapus dan tidak dilakukan setPilot pada FlightModel?
+- akan terjadi error dikarenakan flightmodel membutuhkan pilot.
